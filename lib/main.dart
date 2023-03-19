@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         SliverListPage.route: (_) => const SliverListPage(),
+        NewListPage.route: (_) => const NewListPage(),
       },
       initialRoute: SliverListPage.route,
     );
